@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC
+	"-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN"
+	"http://java.sun.com/dtd/application_1_3.dtd">
+<application>
+  <display-name>p2p-ear</display-name>
+  <description>Ear for P2P</description>
+  <module>
+    <web>
+      <web-uri>p2p-war-19.2.D.1.war</web-uri>
+      <context-root>/send</context-root>
+    </web>
+  </module>
+</application>

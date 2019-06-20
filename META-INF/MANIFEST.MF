@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: e074763
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_73
+
+Name: Build-Info (Windows)
+SCM-Type: ${env.BAMBOO_PLANREPOSITORY_TYPE}
+Build-Result-URL: ${env.BAMBOO_BUILDRESULTSURL}
+SCM-Revision: ${env.BAMBOO_PLANREPOSITORY_REVISION}
+Build-Number: ${env.BAMBOO_BUILDNUMBER}
+SCM-URL: ${env.BAMBOO_PLANREPOSITORY_REPOSITORYURL}
+
